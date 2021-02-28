@@ -1,0 +1,24 @@
+body {background: url(Imagenes/uabjo.png); width:1000px; position:absolute; left:150px}
+button {width:210px; height:35px; font-size:20px;}
+table {color:black; text-align:center; border:double; border-color:blue}
+div {text-align:center; style=height:35px; background-color:#CC6}
+b {font-size:30px; color:black}
+#Materias, #Tutorias, #Calificaciones, #Evaluacion {background-color:#900; color:#F90}
+#Mostaza, #Reinscripcion, #Tramites, #Mensajes, #Kardex {background-color:#F90; color:#900}
+#Rojo {color:#900}
+#tabla {background-color:gray}
+#uno {background-color:#900}
+#dos {background-color:#F90}
+#R {background-color:#900}
+#E {background-color:#F90}
+#tres {background-color:#FFC}
+#BIENVENIDO {color:green}
+#Matricula {color:red}
+#Aprobada {background-color:#69F}
+#Reprobada {background-color:red}
+#PorCursar {background-color:gray}
+#Horario {background-color:#CCC}
+#dia {width:90px;}
+#btnMsg {background-color: transparent; width:95%; height:25px}
+/*#9F6 #CFF*/
+h1 span {color:black}

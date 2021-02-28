@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.div{
+	width: 264px;
+	height: 100px;
+	background:#003380;
+	color:#fff;
+	float:left;
+	border-color:#000;
+	border-style:solid;
+	}
+	
+
+#header{
+	text-align:center;
+	background:#663333;
+	color:#FFF;
+	}
+
+.p{
+	text-align:center;
+	font-size:24px;
+	}
+#body{
+	background-image:url(../proyectotitulaciones/logo-uabjo.png);
+	background-color:#F1C40F;
+	}
+#regla{
+	text-align:center;
+	font-size:44px;
+	
+	}
+#bod{
+	background-color:#CCC;
+	}
+#delo{
+	background-color:#CA0436;
+	}
+#pre{
+
+	font-size:28px;
+	}
+#requisito{
+	text-align:left;
+	font-size:24px;
+	}
+.titula{
+	
+	font-size:20px;
+	}
+

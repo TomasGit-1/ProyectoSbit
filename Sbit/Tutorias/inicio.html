@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tutorias</title>
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/estilos.css" />
+<?php
+	session_start(); //Iniciamos la Sesion o la Continuamos
+?>
+</head>
+
+<body>
+    <header>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    	<div class="container">
+        	<div class="navbar-header">
+            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+                	<span class="sr-only">Tutor Responsable</span>
+                    <span class="icon-bar"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a href="#" class=" navbar-brand">Tutorias</a>
+            </div>
+            <!-- Inicia menu -->
+            <div class="collapse navbar-collapse" id="navegacion-fm">
+            	<ul class="nav navbar-nav">
+                        <li class="dropdown">
+                        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Alumnos<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="../Login/Alumnos/Tutorias/Alumno_Tutor.php">Tutor</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Inicio_Tutores.php">Calificaciones</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Mos_Horarios.php">Horario</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="plan.php">Plan de estudios</a></li>
+                        <li><a href="kardex.php">Kardex</a></li>
+                        <li><a href="EstudioSocioeconomico.php">Estudio Socio Economico</a></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <section class="jumbotron">
+    	<div class="container">
+        	<div>
+            	<center><h2>Tutorias</h2>
+            </div>
+        	<img src="imgenes/foto1-20-770x392.jpg" class="img-responsive center-block " style="display:block"/>
+        </div>
+    </section>
+
+    <section class="main container"></section>
+
+    <footer> </footer>
+    <script src="bootstrap-3.3.7-dist/js/jquery-3.1.0.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

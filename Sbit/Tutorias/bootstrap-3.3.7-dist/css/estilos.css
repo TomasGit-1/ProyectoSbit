@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.jumbotron {
+	background:#663333;
+	color:#EEE;
+}
+
+body{
+background:#CBB61D;
+}
+
+#panel-principal{
+	background-color:#500;
+}
+.h1{
+	color:#EEE;
+}
+.panel-body .img{
+	height:100%;
+}
